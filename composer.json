@@ -2,7 +2,7 @@
     "name": "karim-qaderi/php-dd",
     "description": "N/A",
     "require": {
-        "symfony/var-dumper": "*"
+        "symfony/var-dumper": ">=4"
     },
     "version": "1.0.0",
     "autoload": {
