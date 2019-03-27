@@ -1,0 +1,17 @@
+{
+    "name": "karim-qaderi/php-dd",
+    "description": "N/A",
+    "require": {
+        "symfony/var-dumper": "*"
+    },
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "hepler.php"
+        ],
+        "psr-4": {
+            "KarimQaderi\\DD\\": ""
+        }
+    }
+}
+
