@@ -7,7 +7,7 @@ if (! function_exists('dd')) {
          * @param  mixed
          * @return void
          */
-        function dd()
+        function dd(...$arg)
         {
             array_map(function ($x) {
                 (new KarimQaderi\DD\Dumper\Dumper)->dump($x);
